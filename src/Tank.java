@@ -8,6 +8,7 @@ public class Tank {
     private int direction=0;
     private int fuel;
     private int n=0;
+    private int c=0;// проверка GIT
 
     public Tank() {
         this(0,0,100);
@@ -51,7 +52,6 @@ public class Tank {
     public void turnLeft(){
         direction=direction-1;
         if (direction==-1) direction=3;
-
         }
 
 
